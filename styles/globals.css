@@ -24,3 +24,17 @@ a {
     background: black;
   }
 }
+.circle{
+  height: 100vh;
+  width: 100vh;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 999;
+  opacity: 0.1;
+  margin: auto;
+}
+@media screen and (max-width:480px){
+  .circle{
+    display: none;
+  }
+}
