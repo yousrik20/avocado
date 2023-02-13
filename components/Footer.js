@@ -10,7 +10,7 @@ const Footer=()=>{
                     <Link href="/contact" passHref>
                         <>
                             <span className={styles.linkText}>Work With Us</span>
-                            <Image alt='' width='40' height='40' src={process.env.NEXT_PUBLIC_URL +'/img/link.png'}/>
+                            <img alt='' width='40' height='40' src='/img/link.png'/>
                         </>
                     </Link>
                     

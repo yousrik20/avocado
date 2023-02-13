@@ -13,10 +13,10 @@ const Testimonials=()=>{
                     <motion.div  initial={{ opacity: 0, }}
                                  whileInView={{ opacity: 1 }}
                                  transition={{ type: "tween",duration:2 }} key={user.id} className={styles.card}>
-                        <Image src={`${process.env.NEXT_PUBLIC_URL}/img/${user.logo}`} width='30' height='30' alt=''/>
+                        <img src={`/img/${user.logo}`} width='30' height='30' alt=''/>
                         <p className={styles.comment}>{user.comment}</p>
                         <div className={styles.person}>
-                            <Image src={`${process.env.NEXT_PUBLIC_URL}/img/${user.avatar}`} className={styles.avatar} objectFit='cover' width='45' height='45' alt/>
+                            <img src={`/img/${user.avatar}`} className={styles.avatar} objectFit='cover' width='45' height='45' alt/>
                             <div className={styles.info}>
                                 <span className={styles.username}>{user.name}</span>
                                 <span className={styles.jobTitle}>{user.title}</span>

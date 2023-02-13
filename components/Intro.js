@@ -14,7 +14,7 @@ const Intro=()=>{
                 <button className={styles.button}>DISCOVER</button>
             </div>
             <motion.div animate={{x:0}} initial={{x:-2000}} transition={{type:'spring',stiffness:60,duration:2}} className={styles.card}>
-                <Image src={process.env.NEXT_PUBLIC_URL + "/img/Avocado.png"} fill objectFit='cover'
+                <img src={"/img/Avocado.png"} fill className={styles.myImg} objectFit='cover'
                  alt="Avocado"/>    
             </motion.div> 
         </div>

@@ -17,7 +17,7 @@ const Services=({services})=>{
                                 {service.video ? (
                                     <video src={`/img/${service.video}`} autoPlay muted loop className={styles.video}/>
                                 ) : (
-                                    <Image src={`${process.env.NEXT_PUBLIC_URL}/img/${service.photo}`} alt="image1"  className={styles.myImg} layout='fill' width='500' height='500' objectFit='cover'/>
+                                    <img src={`/img/${service.photo}`} alt="image1"  className={styles.myImg} layout='fill' width='500' height='500' objectFit='cover'/>
                                 )}
                             </div>
                         </div>
