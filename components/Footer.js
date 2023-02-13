@@ -8,11 +8,10 @@ const Footer=()=>{
                 <h1 className={styles.title}>AVOCADO CREATIVES</h1>
                 <h1 className={styles.linkTitle}>
                     <Link href="/contact" passHref>
-                     <>
-                         <span className={styles.linkText}>Work With Us</span>
-                        <Image alt='' width='40' height='40' src={process.env.NEXT_PUBLIC_URL+'/img/link.png'}/>
-                     
-                     </>
+                        <>
+                            <span className={styles.linkText}>Work With Us</span>
+                            <Image alt='' width='40' height='40' src={process.env.NEXT_PUBLIC_URL +'/img/link.png'}/>
+                        </>
                     </Link>
                     
                 </h1>

@@ -3,10 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images:{
-    domains:["images.pexels.com","https://avocado.netlify.app/"]
+    domains:["images.pexels.com"]
   },
-  loader:"imgix",
-  path:""
 }
 
 module.exports = nextConfig
